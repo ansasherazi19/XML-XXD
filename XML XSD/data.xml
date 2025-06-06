@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FalconStationers>
+    <Product>
+        <Productid>1</Productid>
+        <ProductName>pencil</ProductName>
+        <Quantity>1200 units</Quantity>
+        <PricePerUnit>10</PricePerUnit>
+        <PricePerDozen>110</PricePerDozen>
+        <InStock>yes</InStock>
+    </Product>
+    <Product>
+        <Productid>2</Productid>
+        <ProductName>pen</ProductName>
+        <Quantity>6000 units</Quantity>
+        <PricePerUnit>60</PricePerUnit>
+        <PricePerDozen>700</PricePerDozen>
+        <InStock>yes</InStock>
+    </Product>
+    <Product>
+        <Productid>3</Productid>
+        <ProductName>Eraser</ProductName>
+        <Quantity>15000 units</Quantity>
+        <PricePerUnit>7</PricePerUnit>
+        <PricePerDozen>80</PricePerDozen>
+        <InStock>yes</InStock>
+    </Product>
+    <Product>
+        <Productid>4</Productid>
+        <ProductName>Sharpener</ProductName>
+        <Quantity>0 units</Quantity>
+        <PricePerUnit>10</PricePerUnit>
+        <PricePerDozen>110</PricePerDozen>
+        <InStock>no</InStock>
+    </Product>
+    <Product>
+        <Productid>5</Productid>
+        <ProductName>Board Marker</ProductName>
+        <Quantity>500 units</Quantity>
+        <PricePerUnit>80</PricePerUnit>
+        <PricePerDozen>900</PricePerDozen>
+        <InStock>yes</InStock>
+    </Product>
+</FalconStationers>

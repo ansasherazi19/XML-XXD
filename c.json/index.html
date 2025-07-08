@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // sir owais khan
+        
+        let flower = {
+            "name":"rose",
+            "color":"red",
+            "price":"300pkr"
+        }
+
+        localStorage.setItem("first",flower);
+           console.log("before conversion" + typeof(flower));   //object
+    
+       let first=JSON.stringify(flower)
+       console.log("after conversion" +typeof(first)); //string
+      localStorage.setItem("abc",first)
+
+
+      let second=JSON.parse(localStorage.getItem("abc"))
+      console.log(second.name)
+      
+
+    </script>
+</body>
+</html>
